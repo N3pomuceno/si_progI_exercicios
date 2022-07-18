@@ -1,0 +1,10 @@
+product1 = input().split()
+c1 = int(product1[0])
+u1 = int(product1[1])
+p1 = float(product1[2])
+product2 = input().split()
+c2 = int(product2[0])
+u2 = int(product2[1])
+p2 = float(product2[2])
+preco = u1 * p1 + u2 * p2
+print("VALOR A PAGAR: R$ {:.2f}".format(preco))
